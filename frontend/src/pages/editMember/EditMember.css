@@ -1,0 +1,155 @@
+.retangle-edit-member {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #5e17eb;
+    padding: 12px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 60%;
+    margin: 10em auto 1em auto;
+}
+
+.retangle-edit-member {
+    padding: 12px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 60%;
+    margin: 10em auto 1em auto; 
+}
+
+.form-edit-member{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.form-edit-member-user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-edit-member-user p{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-edit-member-user select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.form-edit-member-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.btn-edit{
+    background-color: #00bf63;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 30%;
+    max-width: 450px;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+.btn-edit:hover{
+    background-color: #008645;
+}
+
+
+.btn-exit{
+    background-color: #ff0000;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 30%;
+    max-width: 450px;
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.btn-exit:hover{
+    background-color: #5a0000;
+}
+
+@media (max-width: 1024px) {
+    .retangle-edit-member {
+        max-width: 85%;
+        padding: 15px;
+    }
+
+    .form-edit-member-user p {
+        font-size: 18px;
+    }
+
+    .form-edit-member-user select {
+        font-size: 16px;
+    }
+
+    .btn-edit,
+    .btn-exit {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .form-edit-member-user select {
+        width: 98%;
+    }
+}
+
+@media (max-width: 768px) {
+    .retangle-edit-member {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .form-edit-member {
+        align-items: center;
+    }
+
+    .btn-edit,
+    .btn-exit {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .retangle-edit-member {
+        width: 98%;
+        padding: 10px;
+    }
+
+    .form-edit-member-user p {
+        font-size: 16px;
+    }
+
+    .form-edit-member-user select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn-edit,
+    .btn-exit {
+        font-size: 16px;
+        padding: 8px;
+    }
+}

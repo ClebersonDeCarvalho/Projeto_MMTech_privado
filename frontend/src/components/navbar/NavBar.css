@@ -1,0 +1,138 @@
+.navbar {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 1px 0;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 10px;
+}
+
+.flex-space {
+    flex: 1;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar-nav a:hover {
+    color: #a855f7;
+    border-bottom: 2px solid #a855f7;
+}
+
+.active {
+    color: #a855f7 !important;
+    border-bottom: 2px solid #a855f7;
+}
+
+.logout-btn {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    background-color: #a855f7;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #7e10b1;
+}
+
+.menu-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .navbar-nav {
+        display: none; 
+        flex-direction: column; 
+        gap: 0.5em; 
+        width: 100%;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .navbar-nav.open {
+        display: flex;
+    }
+
+    .navbar-nav a {
+        padding: 0.8em;
+    }
+
+    .logout-btn {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 14px;
+    }
+
+    .navbar-nav a {
+        padding: 0.5em;
+    }
+
+    .navbar-nav {
+        gap: 0.5em;
+    }
+
+    .logout-btn {
+        font-size: 18px; 
+        padding: 0.8em;
+    }
+}

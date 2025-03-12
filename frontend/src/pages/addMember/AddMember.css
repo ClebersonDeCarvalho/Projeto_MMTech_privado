@@ -1,0 +1,135 @@
+.retangle-add-member {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #5e17eb;
+    padding: 12px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 60%;
+    margin: 10em auto 1em auto;
+}
+
+.retangle-add-member {
+    padding: 12px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 60%;
+    margin: 10em auto 1em auto; 
+}
+
+
+.form-add-member{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.form-add-member-leader{
+    display: flex;
+    align-items: flex-start;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-add-member-leader input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
+    transform: scale(1.3); 
+    margin-right: 10px; 
+    cursor: pointer; 
+}
+
+.form-add-member-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.form-add-member-control{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.btn-add-member {
+    background-color:#00bf63;
+}
+
+.btn-add-member:hover {
+    background-color:#008645;
+}
+
+@media (max-width: 1024px) {
+    .retangle-add-member {
+        max-width: 80%;
+        margin: 8em auto 1em auto;
+    }
+
+    .form-add-member-leader {
+        font-size: 20px;
+    }
+
+    .form-add-member-label {
+        font-size: 16px;
+    }
+
+    .form-add-member-control {
+        font-size: 1em;
+    }
+
+    .btn-add-member {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .retangle-add-member {
+        max-width: 90%;
+        margin: 6em auto 1em auto;
+    }
+
+    .form-add-member-leader {
+        font-size: 18px;
+    }
+
+    .form-add-member-label {
+        font-size: 14px;
+    }
+
+    .form-add-member-control {
+        font-size: 0.9em; 
+    }
+
+    .btn-add-member {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .retangle-add-member {
+        max-width: 95%;
+        margin: 5em auto 1em auto;
+    }
+
+    .form-add-member-leader {
+        font-size: 16px;
+    }
+
+    .form-add-member-label {
+        font-size: 12px;
+    }
+
+    .form-add-member-control {
+        font-size: 0.8em;
+    }
+
+    .btn-add-member {
+        font-size: 16px; 
+        padding: 8px 15px; 
+    }
+}

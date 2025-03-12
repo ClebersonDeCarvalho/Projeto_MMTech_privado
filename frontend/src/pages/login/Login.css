@@ -1,0 +1,98 @@
+.retangle-login {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #5e17eb;
+    padding: 25px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 40%;
+    margin: 10em auto 1em auto; /
+}
+
+input.error-placeholder {
+    border: 1px solid red;
+    background-color: #f8d7da; 
+}
+
+input.error-placeholder::placeholder {
+    color: red;
+}
+
+.btn-login {
+    background-color: #5e17eb;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 40%;
+    max-width: 750px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #7e10b1;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.form-login span{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .retangle-login {
+        max-width: 60%;
+        padding: 20px;
+    }
+
+    .btn-login {
+        font-size: 20px;
+        padding: 12px 25px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .retangle-login {
+        max-width: 80%;
+        padding: 18px;
+        border-radius: 30px;
+    }
+
+    .btn-login {
+        font-size: 18px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .retangle-login {
+        max-width: 90%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .btn-login {
+        font-size: 16px;
+        padding: 8px 15px;
+        width: 100%;
+    }
+
+    .error-message {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,138 @@
+.retangle-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e17eb;
+    padding: 12px;
+    border-radius: 50px;
+    width: auto;
+    max-width: 60%;
+    margin: 5em auto 1em auto;
+    margin-top: 10em;
+}
+
+span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    width: 95%;
+    max-width: 900px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.form-register input::placeholder {
+    color: #767676;
+    transition: color 0.3s ease;
+}
+
+.form-register .error-placeholder::placeholder {
+    color: rgb(155, 92, 92);
+}
+
+.btn-register {
+    background-color: #5e17eb;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 750px;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #7e10b1;
+}
+
+@media (max-width: 1024px) {
+    .retangle-register {
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 40px;
+    }
+
+    span {
+        font-size: 22px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .btn-register {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .retangle-register {
+        max-width: 85%;
+        margin-top: 5em;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .btn-register {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .retangle-register {
+        max-width: 95%;
+        padding: 8px;
+        border-radius: 30px;
+        margin-top: 5em;
+    }
+
+    span {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .btn-register {
+        font-size: 16px;
+        padding: 8px 15px;
+        width: 100%;
+    }
+}
