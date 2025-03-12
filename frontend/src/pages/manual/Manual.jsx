@@ -17,10 +17,10 @@ const Manual = () => {
         dando opções de editar os dados do time ou excluí-lo (Deleta<br /> todos os seus membros). 
         É possível também definir um líder dentre<br /> todos os membros desse time.<br />
         <br />
-        <b>Gerenciar Membros:</b> Lista todos os membros adicionados, tendo a opção<br /> de 
-        pesquisar pelo nome do membro ou filtrar pelo time. É possível editar <br /> cada atributo
-        (nome, email, telefone e time) do membro clicando no botão, <br />e também é possível excluí-lo 
-        (se o mesmo não for o líder, caso seja você <br />deve designar um novo líder para só então excluir o antigo).<br />
+        <b>Gerenciar Membros:</b> Lista todos os membros adicionados, tendo a <br />opção de 
+        pesquisar pelo nome do membro ou filtrar pelo time. É possível <br />editar cada atributo
+        (nome, email, telefone e time) do membro clicando no <br />botão, e também é possível excluí-lo 
+        (se for o líder, o time ficará sem líder e <br />você deverá designar um novo líder para o time).
       </p>
     </div>
   );
