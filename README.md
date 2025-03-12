@@ -63,6 +63,12 @@ O projeto tem como objetivo desenvolver um sistema de gerenciamento de usuários
     <img src="./Readme images/EditarMembro.png" alt="Editar membro" width="900">
 </div>
 
+<div align="center">
+    <h3>Responsividade</h3>
+    <img src="./Readme images/Responsividade.png" alt="Responsividade" width="900">
+</div>
+
+
 ---  
 
 ## 📌 Funcionalidades  
